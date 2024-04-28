@@ -1,9 +1,7 @@
 #include "sort.h"
-
 /* Déclarations des fonctions */
 void quick_sort_helper(int *array, int low, int high, size_t size);
 int partition(int *array, int low, int high, size_t size);
-
 /**
  * quick_sort - quick sort algorithm in ascending order
  * @array: array to sort
@@ -18,7 +16,6 @@ void quick_sort(int *array, size_t size)
 
     quick_sort_helper(array, 0, size - 1, size);
 }
-
 /**
  * quick_sort_helper - recursively sort the array
  * @array: array to sort
@@ -40,7 +37,6 @@ void quick_sort_helper(int *array, int low, int high, size_t size)
         quick_sort_helper(array, pivot + 1, high, size);
     }
 }
-
 /**
  * partition - Lomuto partition scheme
  * @array: array to partition
