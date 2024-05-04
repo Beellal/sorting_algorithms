@@ -3,9 +3,9 @@
 This project involves implementing sorting algorithms in C and evaluating their time complexity using Big O notation.
 
 **Weight:** 2  
-**Teams:** Beellal Bilal, Aicha  
+**Teams:** Beellal Bilal, Aicha Lahnite
 **Start:** April 24, 2024, at 4:00 AM  
-**End:** May 1, 2024, at 4:00 AM  
+**End:** May 5, 2024, at 4:00 AM  
 
 ## Objectives
 
